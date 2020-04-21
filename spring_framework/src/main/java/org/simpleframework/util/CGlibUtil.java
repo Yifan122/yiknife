@@ -1,4 +1,4 @@
-package pattern.proxy.dynamic.cglib.util;
+package org.simpleframework.util;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

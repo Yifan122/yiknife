@@ -6,6 +6,7 @@ import org.simpleframework.core.annotations.Component;
 import org.simpleframework.core.annotations.Controller;
 import org.simpleframework.core.annotations.Repository;
 import org.simpleframework.core.annotations.Service;
+import org.simpleframework.core.aop.annotation.Aspect;
 import org.simpleframework.util.ClassUtil;
 import org.simpleframework.util.ValidationUtil;
 
@@ -20,8 +21,8 @@ import java.util.concurrent.ConcurrentHashMap;
 @NoArgsConstructor
 public class BeanContainer {
     // ANNOTATION_LIST store the which kind of objects need to store into BeanContainer
-    private static List<Class<? extends Annotation>> ANNOTATION_LIST = Arrays.asList(Component.class, Controller.class,
-            Repository.class, Service.class);
+    private static List<Class<? extends Annotation>> BEAN_ANNOTATION = Arrays.asList(Component.class, Controller.class,
+            Repository.class, Service.class, Aspect.class);
     // map store the object instance
     private final ConcurrentHashMap<Class<?>, Object> beanMap = new ConcurrentHashMap<>();
     private boolean load = false;
@@ -55,7 +56,7 @@ public class BeanContainer {
         }
 
         // Filter the class which has annotation in ANNOTATION_LIST
-        for (Class<? extends Annotation> annotation : ANNOTATION_LIST) {
+        for (Class<? extends Annotation> annotation : BEAN_ANNOTATION) {
             for (Class<?> clazz : classSet) {
                 if (clazz.isAnnotationPresent(annotation)) {
                     beanMap.put(clazz, ClassUtil.newInstance(clazz, true));

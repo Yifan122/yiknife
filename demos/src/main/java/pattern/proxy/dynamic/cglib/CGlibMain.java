@@ -1,6 +1,6 @@
 package pattern.proxy.dynamic.cglib;
 
-import pattern.proxy.dynamic.cglib.util.CGlibUtil;
+import org.simpleframework.util.CGlibUtil;
 import pattern.proxy.dynamic.jdk.ToCPaymentImpl;
 import pattern.proxy.statiz.ToCPayment;
 

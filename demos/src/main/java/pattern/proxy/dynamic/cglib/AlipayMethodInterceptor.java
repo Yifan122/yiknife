@@ -8,10 +8,10 @@ import java.lang.reflect.Method;
 // Aspect 的创建
 public class AlipayMethodInterceptor implements MethodInterceptor {
     @Override
-    public Object intercept(Object o, Method method, Object[] args, MethodProxy methodProxy) throws Throwable {
+    public Object intercept(Object proxy, Method method, Object[] args, MethodProxy methodProxy) throws Throwable {
         beforePay();
         // 跟jdk相比，CGlib中可以直接用methodProxy的方法去调用被代理对象的方法
-        Object returnResult = methodProxy.invokeSuper(o, args);
+        Object returnResult = methodProxy.invokeSuper(proxy, args);
         afterPay();
         return returnResult;
     }
