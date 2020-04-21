@@ -3,11 +3,11 @@ package com.imooc.service.solo.impl;
 import com.imooc.entity.bo.HeadLine;
 import com.imooc.entity.dto.Result;
 import com.imooc.service.solo.HeadLineService;
-
+import org.simpleframework.core.annotations.Service;
 
 import java.util.List;
 
-
+@Service
 public class HeadLineServiceImpl implements HeadLineService {
     @Override
     public Result<Boolean> addHeadLine(HeadLine headLine) {
