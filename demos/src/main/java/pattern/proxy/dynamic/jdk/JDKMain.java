@@ -1,9 +1,9 @@
-package pattern.proxy.dynamic;
+package pattern.proxy.dynamic.jdk;
 
-import pattern.proxy.dynamic.util.JDKProxyUtil;
+import pattern.proxy.dynamic.jdk.util.JDKProxyUtil;
 import pattern.proxy.statiz.ToCPayment;
 
-public class Main {
+public class JDKMain {
     public static void main(String[] args) {
         ToCPayment toCPayment = new ToCPaymentImpl();
         AliInvocationHandler proxy = new AliInvocationHandler(toCPayment);

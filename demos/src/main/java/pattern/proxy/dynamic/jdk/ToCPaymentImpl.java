@@ -1,4 +1,4 @@
-package pattern.proxy.dynamic;
+package pattern.proxy.dynamic.jdk;
 
 import pattern.proxy.statiz.ToCPayment;
 
