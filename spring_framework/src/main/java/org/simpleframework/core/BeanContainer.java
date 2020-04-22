@@ -27,6 +27,16 @@ public class BeanContainer {
     private final ConcurrentHashMap<Class<?>, Object> beanMap = new ConcurrentHashMap<>();
     private boolean load = false;
 
+    private enum Container {
+        HOLD;
+        BeanContainer instance = Container();
+
+        private BeanContainer Container() {
+            System.out.println("Container created");
+            return new BeanContainer();
+        }
+    }
+
     /**
      * Get container instance
      *
@@ -165,15 +175,7 @@ public class BeanContainer {
         return childrenClassSet.size() > 0 ? childrenClassSet : null;
     }
 
-    private enum Container {
-        HOLD;
-        BeanContainer instance = Container();
 
-        private BeanContainer Container() {
-            System.out.println("Container created");
-            return new BeanContainer();
-        }
-    }
 
 
 }
