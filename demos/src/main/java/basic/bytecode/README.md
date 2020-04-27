@@ -15,3 +15,8 @@ decompile
 javap -c  basic/bytecode/ByteCode.class
 javap -verbose  basic/bytecode/ByteCode.class
 ```
+
+decompile from a jar
+```shell script
+javap -verbose -claspath com.ioomc.ByreCode yiknife.jar
+```
