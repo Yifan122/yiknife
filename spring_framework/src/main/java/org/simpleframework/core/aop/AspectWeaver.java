@@ -15,7 +15,7 @@ public class AspectWeaver {
         this.beanContainer = BeanContainer.getInstance();
     }
 
-    public void doAspect() {
+    public void doAop() {
         // 1. 获取所有的切面类
         Set<Class<?>> aspectClassSet = beanContainer.getClassesByAnnotation(Aspect.class);
         validateAspectSet(aspectClassSet);
