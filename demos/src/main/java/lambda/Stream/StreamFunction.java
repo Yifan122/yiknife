@@ -14,6 +14,7 @@ public class StreamFunction {
     public void testFilter() {
         skuList.stream()
                 .filter(sku -> sku.getPrice() > 50)
+                .sorted(Comparator.comparingDouble(Sku::getPrice))
                 .forEach(sku -> System.out.println(JSON.toJSONString(sku, true)));
     }
 
