@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c2525db2-f404-47ec-8c7d-835b571dcc38" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="IOC container">
+      <favorite_root url="org.simpleframework.core.BeanContainer" module="spring_framework" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+    </favorites_list>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Yifan Zeng &lt;zengyifan122@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1aYmCA2JH8ss5nuvvR2zenjgHAG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/demos/src/main/java/lambda" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_framework/src/main/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring_framework" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.simpleframework.mvc.processor" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.simpleframework.util" />
+      <recent name="pattern.proxy.dynamic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring_framework/src/main/java" />
+      <recent name="$PROJECT_DIR$/spring_demo/src/main/java/com/imooc/controller" />
+      <recent name="$PROJECT_DIR$/spring_demo/src/main/java/com/imooc/service" />
+      <recent name="$PROJECT_DIR$/spring_demo/src/main/java/com/imooc/entity" />
+      <recent name="$PROJECT_DIR$/spring_demo/src/main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ThreadPoolExecutor">
+    <configuration name="AnnotationDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.AnnotationDemo" />
+      <module name="demos" />
+      <option name="VM_PARAMETERS" value="-Djdk.proxy.ProxyGenerator.saveGeneratedFiles=true" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadPool.demo.Demo" />
+      <module name="demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThreadPool.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadPoolExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadPool.src.ThreadPoolExecutor" />
+      <module name="demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThreadPool.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiSetDemo.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guava" />
+      <option name="MAIN_CLASS_NAME" value="guava.MultiSetDemo" />
+      <option name="METHOD_NAME" value="count" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamFunction.testFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda.Stream" />
+      <option name="MAIN_CLASS_NAME" value="lambda.Stream.StreamFunction" />
+      <option name="METHOD_NAME" value="testFilter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamReduce.reduceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda.Stream" />
+      <option name="MAIN_CLASS_NAME" value="lambda.Stream.StreamReduce" />
+      <option name="METHOD_NAME" value="reduceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spring_demo [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/spring_demo" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.AnnotationDemo" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.ThreadPoolExecutor" />
+      <item itemvalue="JUnit.StreamReduce.reduceTest" />
+      <item itemvalue="JUnit.MultiSetDemo.count" />
+      <item itemvalue="JUnit.StreamFunction.testFilter" />
+      <item itemvalue="Maven.spring_demo [tomcat7:run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ThreadPoolExecutor" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="JUnit.StreamFunction.testFilter" />
+        <item itemvalue="JUnit.MultiSetDemo.count" />
+        <item itemvalue="JUnit.StreamReduce.reduceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2525db2-f404-47ec-8c7d-835b571dcc38" name="Default Changelist" comment="" />
+      <created>1586920771487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586920771487</updated>
+      <workItem from="1586920775935" duration="17889000" />
+      <workItem from="1587002217101" duration="43539000" />
+      <workItem from="1587875987116" duration="9789000" />
+      <workItem from="1588122707308" duration="5311000" />
+      <workItem from="1588154325399" duration="2104000" />
+      <workItem from="1588346045429" duration="7010000" />
+      <workItem from="1588408637284" duration="475000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1586955357442</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586955357442</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add annotation demo">
+      <created>1586960272730</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586960272730</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add annotation demo">
+      <created>1586960427867</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586960427867</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finish annotation demo">
+      <created>1586961770396</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586961770396</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Annotations for spring framework">
+      <created>1586962716363</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586962716363</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Finish Design for Bean Container (Enum Singleton)">
+      <created>1587306086242</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587306086242</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Dynamic and static proxy design pattern demo &amp;&amp; Dependency Injection">
+      <created>1587437337845</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587437337845</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add CGlib example">
+      <created>1587438769972</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587438769972</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Aspect using CGlib">
+      <created>1587482636120</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587482636120</updated>
+    </task>
+    <task id="LOCAL-00010" summary="AOP Weaver">
+      <created>1587571572874</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587571572874</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add some JVM examples">
+      <created>1587801354511</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587801354511</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update scripts">
+      <created>1587989799094</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587989799095</updated>
+    </task>
+    <task id="LOCAL-00013" summary="RequestProcessorChain">
+      <created>1587994088925</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587994088925</updated>
+    </task>
+    <task id="LOCAL-00014" summary="lambada -&gt; functional programming">
+      <created>1588082387218</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588082387218</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Stream + Lambda (create + collect)">
+      <created>1588142146749</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588142146749</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Stream + Lambda (create + collect)">
+      <created>1588142313495</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1588142313495</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Stream + Lambda (create + collect)">
+      <created>1588168546926</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1588168546927</updated>
+    </task>
+    <task id="LOCAL-00018" summary="guava demo">
+      <created>1588345315208</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1588345315208</updated>
+    </task>
+    <task id="LOCAL-00019" summary="guava demo">
+      <created>1588388287719</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1588388287719</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Simple ThreadPool implementation">
+      <created>1588395639913</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1588395639913</updated>
+    </task>
+    <task id="LOCAL-00021" summary="gitignore">
+      <created>1588409045205</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1588409045205</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="init" />
+    <MESSAGE value="Add annotation demo" />
+    <MESSAGE value="Finish annotation demo" />
+    <MESSAGE value="Annotations for spring framework" />
+    <MESSAGE value="Finish Design for Bean Container (Enum Singleton)" />
+    <MESSAGE value="Dynamic and static proxy design pattern demo &amp;&amp; Dependency Injection" />
+    <MESSAGE value="add CGlib example" />
+    <MESSAGE value="Aspect using CGlib" />
+    <MESSAGE value="AOP Weaver" />
+    <MESSAGE value="Add some JVM examples" />
+    <MESSAGE value="update scripts" />
+    <MESSAGE value="RequestProcessorChain" />
+    <MESSAGE value="lambada -&gt; functional programming" />
+    <MESSAGE value="Stream + Lambda (create + collect)" />
+    <MESSAGE value="guava demo" />
+    <MESSAGE value="Simple ThreadPool implementation" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demos/src/main/java/pattern/factory/simple/MouseFactory.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring_framework/src/main/java/org/simpleframework/core/aop/AspectWeaver.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demos/src/main/java/basic/classloader/MyClassLoader.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demos/src/main/java/basic/classloader/MyClassLoader.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demos/src/main/java/lambda/Stream/StreamFunction.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/demos/src/main/java/ThreadPool/demo/Demo.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <condition expression="i &gt; 15" language="JAVA" />
+          <url>file://$PROJECT_DIR$/demos/src/main/java/ThreadPool/src/ThreadPoolExecutor.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+  </component>
+</project>
