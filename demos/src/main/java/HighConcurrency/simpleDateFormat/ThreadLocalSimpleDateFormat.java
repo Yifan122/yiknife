@@ -1,8 +1,7 @@
 package HighConcurrency.simpleDateFormat;
 
-import HighConcurrency.annotation.NotThreadSafe;
+import HighConcurrency.annotation.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.jupiter.api.Test;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -12,15 +11,13 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 @Slf4j
-@NotThreadSafe
-public class UnsafeSimpleDateFormat {
-    // SimpleDateFormat 在多线程情况下是线程不安全的
-    // 应采用堆栈封闭来保证安全
-    private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd");
+@ThreadSafe
+public class ThreadLocalSimpleDateFormat {
+    private static ThreadLocal<SimpleDateFormat> simpleDateFormatThreadLocal = ThreadLocal.withInitial(() -> new SimpleDateFormat("yyyyMMdd"));
 
     private static void update() {
         try {
-            simpleDateFormat.parse("20200403");
+            simpleDateFormatThreadLocal.get().parse("20200403");
         } catch (ParseException e) {
             log.error("Parse error");
         }
@@ -49,16 +46,5 @@ public class UnsafeSimpleDateFormat {
 
         countDownLatch.await();
         threadpool.shutdown();
-    }
-
-    @Test
-    public void testTime() {
-        for (int i = 0; i < 50000; i++) {
-            try {
-                simpleDateFormat.parse("20200403");
-            } catch (ParseException e) {
-                log.error("Parse error");
-            }
-        }
     }
 }

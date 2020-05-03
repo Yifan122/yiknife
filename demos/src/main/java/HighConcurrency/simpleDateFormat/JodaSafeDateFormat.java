@@ -1,27 +1,24 @@
 package HighConcurrency.simpleDateFormat;
 
-import HighConcurrency.annotation.NotThreadSafe;
+import HighConcurrency.annotation.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.jupiter.api.Test;
+import org.joda.time.format.DateTimeFormat;
+import org.joda.time.format.DateTimeFormatter;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 @Slf4j
-@NotThreadSafe
-public class UnsafeSimpleDateFormat {
-    // SimpleDateFormat 在多线程情况下是线程不安全的
-    // 应采用堆栈封闭来保证安全
-    private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd");
+@ThreadSafe
+public class JodaSafeDateFormat {
+    private static DateTimeFormatter dataTimeFormatter = DateTimeFormat.forPattern("yyyyMMdd");
 
     private static void update() {
         try {
-            simpleDateFormat.parse("20200403");
-        } catch (ParseException e) {
+            dataTimeFormatter.parseDateTime("20200403");
+        } catch (Exception e) {
             log.error("Parse error");
         }
     }
@@ -46,19 +43,8 @@ public class UnsafeSimpleDateFormat {
             });
             countDownLatch.countDown();
         }
-
         countDownLatch.await();
         threadpool.shutdown();
-    }
 
-    @Test
-    public void testTime() {
-        for (int i = 0; i < 50000; i++) {
-            try {
-                simpleDateFormat.parse("20200403");
-            } catch (ParseException e) {
-                log.error("Parse error");
-            }
-        }
     }
 }

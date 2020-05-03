@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c2525db2-f404-47ec-8c7d-835b571dcc38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/src/main/java/HighConcurrency/simpleDateFormat/UnsafeSimpleDateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/demos/src/main/java/HighConcurrency/simpleDateFormat/UnsafeSimpleDateFormat.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SafeSimpleDateFormat">
+  <component name="RunManager" selected="Application.ThreadLocalSimpleDateFormat">
     <configuration name="AnnotationDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="annotation.AnnotationDemo" />
       <module name="demos" />
@@ -130,38 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicFieldUpdaterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HighConcurrency.atomic.AtomicFieldUpdaterExample" />
+    <configuration name="JodaSafeDateFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HighConcurrency.simpleDateFormat.JodaSafeDateFormat" />
       <module name="demos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HighConcurrency.atomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AtomicIntegerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HighConcurrency.atomic.AtomicIntegerExample" />
-      <module name="demos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HighConcurrency.atomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AtomicReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HighConcurrency.atomic.AtomicReferenceExample" />
-      <module name="demos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HighConcurrency.atomic.*" />
+          <option name="PATTERN" value="HighConcurrency.simpleDateFormat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,6 +158,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadLocalSimpleDateFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HighConcurrency.simpleDateFormat.ThreadLocalSimpleDateFormat" />
+      <module name="demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HighConcurrency.simpleDateFormat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UnsafeSimpleDateFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HighConcurrency.simpleDateFormat.UnsafeSimpleDateFormat" />
       <module name="demos" />
@@ -191,6 +180,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnsafeSimpleDateFormat.testTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HighConcurrency.simpleDateFormat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HighConcurrency.simpleDateFormat" />
+      <option name="MAIN_CLASS_NAME" value="HighConcurrency.simpleDateFormat.UnsafeSimpleDateFormat" />
+      <option name="METHOD_NAME" value="testTime" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -231,19 +236,19 @@
       <item itemvalue="Application.AnnotationDemo" />
       <item itemvalue="Maven.spring_demo [tomcat7:run]" />
       <item itemvalue="Spring Boot.ConcurrencyApplication" />
-      <item itemvalue="Application.AtomicIntegerExample" />
-      <item itemvalue="Application.AtomicReferenceExample" />
-      <item itemvalue="Application.AtomicFieldUpdaterExample" />
       <item itemvalue="Application.UnsafeSimpleDateFormat" />
       <item itemvalue="Application.SafeSimpleDateFormat" />
+      <item itemvalue="Application.JodaSafeDateFormat" />
+      <item itemvalue="JUnit.UnsafeSimpleDateFormat.testTime" />
+      <item itemvalue="Application.ThreadLocalSimpleDateFormat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLocalSimpleDateFormat" />
+        <item itemvalue="JUnit.UnsafeSimpleDateFormat.testTime" />
+        <item itemvalue="Application.JodaSafeDateFormat" />
         <item itemvalue="Application.SafeSimpleDateFormat" />
         <item itemvalue="Application.UnsafeSimpleDateFormat" />
-        <item itemvalue="Application.AtomicFieldUpdaterExample" />
-        <item itemvalue="Application.AtomicReferenceExample" />
-        <item itemvalue="Application.AtomicIntegerExample" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +268,7 @@
       <workItem from="1588122707308" duration="5311000" />
       <workItem from="1588154325399" duration="2104000" />
       <workItem from="1588346045429" duration="7010000" />
-      <workItem from="1588408637284" duration="5537000" />
+      <workItem from="1588408637284" duration="7407000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1586955357442</created>
@@ -440,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588473555020</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="SimpleDateFormat -&gt; threadsafe &amp; notThreadSafe">
+      <created>1588477603316</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1588477603316</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +502,8 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="concurrency -&gt; atomic" />
     <MESSAGE value="Change BEAN_ANNOTATION to immutable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change BEAN_ANNOTATION to immutable" />
+    <MESSAGE value="SimpleDateFormat -&gt; threadsafe &amp; notThreadSafe" />
+    <option name="LAST_COMMIT_MESSAGE" value="SimpleDateFormat -&gt; threadsafe &amp; notThreadSafe" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
