@@ -12,6 +12,7 @@
         <module>spring_demo</module>
         <module>demos</module>
         <module>spring_framework</module>
+        <module>concurrency</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

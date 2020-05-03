@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demos" />
+        <module name="concurrency" />
         <module name="spring_framework" />
         <module name="spring_demo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="concurrency" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
