@@ -11,18 +11,16 @@ import org.simpleframework.util.ClassUtil;
 import org.simpleframework.util.ValidationUtil;
 
 import java.lang.annotation.Annotation;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 @Slf4j
 @NoArgsConstructor
 public class BeanContainer {
     // ANNOTATION_LIST store the which kind of objects need to store into BeanContainer
-    private static List<Class<? extends Annotation>> BEAN_ANNOTATION = Arrays.asList(Component.class, Controller.class,
-            Repository.class, Service.class, Aspect.class);
+    // BEAN_ANNOTATION should be immutable collection
+    private final static List<Class<? extends Annotation>> BEAN_ANNOTATION = Collections.unmodifiableList(Arrays.asList(Component.class, Controller.class,
+            Repository.class, Service.class, Aspect.class));
     // map store the object instance
     private final ConcurrentHashMap<Class<?>, Object> beanMap = new ConcurrentHashMap<>();
     private boolean load = false;
