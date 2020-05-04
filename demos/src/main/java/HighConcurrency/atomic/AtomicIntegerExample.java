@@ -31,9 +31,10 @@ public class AtomicIntegerExample {
                 try {
                     semaphore.acquire();
                     add();
-                    semaphore.release();
                 } catch (Exception e) {
                     log.error("Exceptions in add: {}", e.toString());
+                } finally {
+                    semaphore.release();
                 }
             });
             countDownLatch.countDown();
