@@ -1,4 +1,4 @@
-package com.bigdata.hbase;
+package com.bigdata.hbase.example;
 
 import com.bigdata.hbase.util.HBaseUtil;
 import lombok.extern.slf4j.Slf4j;
