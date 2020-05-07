@@ -19,8 +19,8 @@ import java.util.concurrent.ConcurrentHashMap;
 public class BeanContainer {
     // ANNOTATION_LIST store the which kind of objects need to store into BeanContainer
     // BEAN_ANNOTATION should be immutable collection
-    private final static List<Class<? extends Annotation>> BEAN_ANNOTATION = Collections.unmodifiableList(Arrays.asList(Component.class, Controller.class,
-            Repository.class, Service.class, Aspect.class));
+    private final static List<Class<? extends Annotation>> BEAN_ANNOTATION =
+            Collections.unmodifiableList(Arrays.asList(Component.class, Controller.class, Repository.class, Service.class, Aspect.class));
     // map store the object instance
     private final ConcurrentHashMap<Class<?>, Object> beanMap = new ConcurrentHashMap<>();
     private boolean load = false;
