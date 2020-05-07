@@ -13,6 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="bigdata" target="8" />
       <module name="concurrency" target="1.8" />
     </bytecodeTargetLevel>
   </component>

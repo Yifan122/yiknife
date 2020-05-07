@@ -4,14 +4,9 @@
     <list default="true" id="c2525db2-f404-47ec-8c7d-835b571dcc38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/demos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/spring_demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_framework/spring_framework.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_framework/src/main/java/org/simpleframework/core/BeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_framework/src/main/java/org/simpleframework/core/BeanContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yiknife.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hbase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hbase/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,11 +77,11 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/demos/src/main/java/lambda" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/hbase/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -125,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HBaseApp.testFilterList">
+  <component name="RunManager" selected="Application.JavaSparkTest">
     <configuration name="AnnotationDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="annotation.AnnotationDemo" />
       <module name="demos" />
@@ -136,6 +131,27 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaSparkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSparkTest" />
+      <module name="hbase" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkTest$" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SparkTest$" />
+      <module name="hbase" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="SparkTest" />
+      <module name="hbase" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,54 +183,6 @@
       <option name="PACKAGE_NAME" value="com.bigdata.hbase" />
       <option name="MAIN_CLASS_NAME" value="com.bigdata.hbase.HBaseApp" />
       <option name="METHOD_NAME" value="testFilterList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HBaseApp.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hbase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bigdata.hbase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bigdata.hbase" />
-      <option name="MAIN_CLASS_NAME" value="com.bigdata.hbase.HBaseApp" />
-      <option name="METHOD_NAME" value="testGet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HBaseApp.testPuts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hbase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bigdata.hbase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bigdata.hbase" />
-      <option name="MAIN_CLASS_NAME" value="com.bigdata.hbase.HBaseApp" />
-      <option name="METHOD_NAME" value="testPuts" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HBaseApp.testScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hbase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bigdata.hbase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bigdata.hbase" />
-      <option name="MAIN_CLASS_NAME" value="com.bigdata.hbase.HBaseApp" />
-      <option name="METHOD_NAME" value="testScan" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -256,19 +224,19 @@
       <item itemvalue="Application.AnnotationDemo" />
       <item itemvalue="Maven.spring_demo [tomcat7:run]" />
       <item itemvalue="Spring Boot.ConcurrencyApplication" />
-      <item itemvalue="JUnit.HBaseApp.testGet" />
-      <item itemvalue="JUnit.HBaseApp.testPuts" />
-      <item itemvalue="JUnit.HBaseApp.testScan" />
       <item itemvalue="JUnit.HBaseApp.testFilter" />
       <item itemvalue="JUnit.HBaseApp.testFilterList" />
+      <item itemvalue="Application.SparkTest$" />
+      <item itemvalue="Application.SparkTest" />
+      <item itemvalue="Application.JavaSparkTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaSparkTest" />
+        <item itemvalue="Application.SparkTest" />
+        <item itemvalue="Application.SparkTest$" />
         <item itemvalue="JUnit.HBaseApp.testFilterList" />
         <item itemvalue="JUnit.HBaseApp.testFilter" />
-        <item itemvalue="JUnit.HBaseApp.testScan" />
-        <item itemvalue="JUnit.HBaseApp.testPuts" />
-        <item itemvalue="JUnit.HBaseApp.testGet" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +258,7 @@
       <workItem from="1588346045429" duration="7010000" />
       <workItem from="1588408637284" duration="12127000" />
       <workItem from="1588769011492" duration="295000" />
-      <workItem from="1588819597248" duration="7670000" />
+      <workItem from="1588819597248" duration="11699000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1586955357442</created>
@@ -488,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588554188150</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="HBase API examples">
+      <created>1588842711581</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1588842711581</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +516,8 @@
     <MESSAGE value="SimpleDateFormat -&gt; threadsafe &amp; notThreadSafe" />
     <MESSAGE value="SimpleDateFormat -&gt; threadsafe &amp; notThreadSafe&#10;Thread safe methods" />
     <MESSAGE value="lock + callable + future" />
-    <option name="LAST_COMMIT_MESSAGE" value="lock + callable + future" />
+    <MESSAGE value="HBase API examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="HBase API examples" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
